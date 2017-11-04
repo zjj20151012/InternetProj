@@ -13,8 +13,8 @@ Vue.use(Vuex);
 const state = {
   'headerTitle': '瀑布流展示',
   'menus': uz.NAME_TITILE,
-  'menuShow': false,
-  'loadingShow': true,
+  'menuShow': true,
+  'loadingShow': false,
   'news': 4
 };
 // 创建一个对象存储一系列我们接下来要写的 mutation 函数
