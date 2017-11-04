@@ -39,7 +39,7 @@
       loadTop() {
         this.$store.commit('UPDATE_LOADING', true);
         this.page = 4;
-        this.$http.get(`http://gank.io/api/data/all/20/${this.page}`).then((response) => {
+        this.$http.get(`http://gank.io/api/data/福利/10/${this.page}`).then((response) => {
           let left = response.body.results.filter((data, i) => {
             return (i + 1) % 2 === 1;
           });
